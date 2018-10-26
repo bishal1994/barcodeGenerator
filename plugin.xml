@@ -2,7 +2,7 @@
 <plugin id="com.attendee.barcodegenerator" version="0.0.4" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>barcode-generator</name>
 	<DESCRIPTION>Plugin for generate Barcode</DESCRIPTION>
-	<js-module name="BarcodeGenerator" src="www/BarcodeGenerator.js">
+	<js-module name="BarcodeGenerator" src="www/barcodeGenerator.js">
 		<clobbers target="cordova.plugins.BarcodeGenerator" />
 	</js-module>
 	<platform name="android">
